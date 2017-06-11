@@ -14,11 +14,16 @@ namespace JLEDC1_App
     public partial class ControlForm: Form
     {
         LEDCommander Ledc;
+        private Timer _infoUpdateTimer;
 
         public ControlForm(LEDCommander Ledc)
         {
             this.Ledc = Ledc;
             InitializeComponent();
+            _infoUpdateTimer = new Timer();
+            _infoUpdateTimer.Tick += new EventHandler(UpdateInfo);
+            _infoUpdateTimer.Interval = 1000;
+            _infoUpdateTimer.Start();
         }
         private void redBar_Scroll(object sender, EventArgs e)
         {
@@ -44,6 +49,27 @@ namespace JLEDC1_App
             SetupForm setupForm = new SetupForm();
             setupForm.Show();
             this.Close();
+        }
+
+        private void UpdateInfo(object sender, EventArgs e)
+        {
+            infoBox.Clear();
+            infoBox.Text += Ledc.GetNewInfo();
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+
+        }
+
+        private void splitContainer4_SplitterMoved(object sender, SplitterEventArgs e)
+        {
+
+        }
+
+        private void greenLabel_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

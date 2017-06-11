@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace JLEDC1_App
 {
-    public class LEDCommander
-    {
+    public class LEDCommander { 
+        private String[] BufferLines = new String[3];
 
         byte[] bytes = new byte[5];
         SerialPort serialPort;
@@ -50,6 +50,16 @@ namespace JLEDC1_App
             SetByte(3, blue);
             this.transmit();
         }
+        public String GetNewInfo()
+        {
+            if(serialPort.BytesToRead > 0)
+            {
+                return serialPort.ReadExisting();
+            } else {
+                return "";
+            }
+        }
+
 
 
         private void SetByte(int i, byte b)
