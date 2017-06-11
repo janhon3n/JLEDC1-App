@@ -1,0 +1,10 @@
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\bin\Debug\JLEDC1_App.exe.config
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\bin\Debug\JLEDC1_App.exe
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\bin\Debug\JLEDC1_App.pdb
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\obj\Debug\JLEDC1-App.csprojResolveAssemblyReference.cache
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\obj\Debug\JLEDC1_App.Properties.Resources.resources
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\obj\Debug\JLEDC1-App.csproj.GenerateResource.Cache
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\obj\Debug\JLEDC1_App.exe
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\obj\Debug\JLEDC1_App.pdb
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\obj\Debug\JLEDC1_App.ControlForm.resources
+C:\Users\Miquel\Documents\Visual Studio 2017\Projects\JLEDC1-App\JLEDC1-App\obj\Debug\JLEDC1_App.SetupForm.resources
